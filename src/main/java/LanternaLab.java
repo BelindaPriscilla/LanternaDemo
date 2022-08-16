@@ -42,7 +42,7 @@ public class LanternaLab {
         terminal.flush();
 
 
-        for (int row = 2; row < 7; row++) {
+        for (int row = 3; row < 7; row++) {
             terminal.setCursorPosition(23, row);
             terminal.putCharacter('H');
             terminal.setCursorPosition(25, row);
